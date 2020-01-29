@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",    
+    "strict": true,    
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,   
+    "esModuleInterop": true
+},
+  "include": ["app/src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
